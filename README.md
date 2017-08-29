@@ -1,6 +1,6 @@
 # CS50
-## --- SPELLER ---
+## SPELLER
 
-Implemented a dictionary with C using Trie data structure. 
+Implemented a dictionary with C using the Trie data structure. 
 
 Usage: ./speller [ DICTIONARY ] text to analyse 
