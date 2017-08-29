@@ -3,7 +3,7 @@
 
 Implemented a dictionary with C using the Trie data structure.
 
-The code I have written myself are in dictionary.c and dictionary.h.
+**The code I have written myself are in dictionary.c and dictionary.h.**
 
 Usage: ./speller [ dictionary ] text
 
