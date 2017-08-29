@@ -1,0 +1,16 @@
+0.  "pneumonoultramicroscopicsilicovolcanoconiosis" is the longest word in the english language (45 letters).
+1.  getrusage returns ressource usage (time it takes to get a particular task done)
+2.  Per the man page for getrusage, there are 16 members in the variable type of struct rusage.
+3.  It is faster (better performance) to pass by reference rather than value (using pointers)
+4.
+The for loop in main will spell-check each word in test. In pseudocode, for each character
+in the text file, it will read that character and;
+1) if the char is alphabetic or an apostrophe
+(given that the word doesn't start with an apostrophe) it will append the
+character to an array previously made to hold a 45 letter word + the null terminator \0.
+2) else if the char a digit, it will skip that word.
+3) else if any of those cases aren't true, then it must be a new word (new line), so end the
+word array with a null terminator \0 to indicate a string.
+
+5.  Because fscanf reads from a formatted input from a stream, we are unsure of the formatting of the text.
+6.  It is always better to declare something that is not supposed to be changed a "constant".
