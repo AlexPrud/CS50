@@ -61,7 +61,6 @@ bool load(const char *dictionary)
  */
 unsigned int size(void)
 {
-    // TODO
     return wordcount;
 }
 
@@ -79,10 +78,8 @@ bool unload(void)
     return false;
 }
 
-// functions
-
 void triedic(node *parent, FILE *dic)
-// makes a dictionnary with the trie data structure [ici]
+// Makes a dictionnary with the trie data structure
 {
     int c;
     // for each letter
@@ -113,6 +110,7 @@ void triedic(node *parent, FILE *dic)
 }
 
 bool checkword(node *parent, const char *word)
+// Checks if a given word is in the dictionary
 {
     // size of word
     int wordsize = strlen(word);
@@ -158,6 +156,7 @@ void convertnode(int *c)
 }
 
 bool unloaddic(node *parent)
+// Unloads the dictionary, freeing up the memory.
 {
     if (parent == NULL)
     {
@@ -179,6 +178,7 @@ bool unloaddic(node *parent)
 }
 
 void initnode(node *parent)
+// Initialise a node, setting all the pointers to NULL.
 {
     parent->is_word = false;
     for (int i = 0; i < 27; i++)
