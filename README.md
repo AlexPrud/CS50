@@ -11,4 +11,4 @@ Example: ./speller texts/alice.txt
 
 Problem Set link: http://docs.cs50.net/problems/speller/speller.html
 
-Speller was definetly the most fun and challenging problem set of CS50. The 4 functions implemented by me are **load**, **check**, **size** and **unload** located in speller/dictionary.c. Those functions make use of pointers, data structures and recursion.
+Speller was definetly the most fun and challenging problem set of CS50. The 4 functionalities implemented by me are **load**, **check**, **size** and **unload** located in speller/dictionary.c. Those functions make use of pointers, data structures and recursion.
